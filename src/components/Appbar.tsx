@@ -7,24 +7,23 @@ import PaymentsIcon from "./icons/PaymentsIcon";
 
 const Appbar = () => {
   return (
-    <div className=" bg-fuchsia-400">
-      {/* <div> */}
-      <div className=" flex justify-between m-5">
-        <div>logo</div>
-        <div className=" flex gap-2">
-          <div className=" flex">
-            <JobsIcon /> jobs
+    <div className=" border-b border-[#E7E7E7]">
+      <div className=" flex justify-between items-center p-5">
+        <div className=" bg-[#E7E7E7] text-[#DC4A2D] px-6 py-4">logo</div>
+        <div className=" flex gap-2 border rounded-full p-1">
+          <div className=" flex gap-2 rounded-full bg-[#DC4A2D] text-white p-3 border border-[#FCB4A5]">
+            <JobsIcon /> <span>jobs</span>
           </div>
-          <div className=" flex">
+          <div className=" flex gap-2  p-3 text-[#B0B0B0]">
             <MessagesIcon />
-            messages
+            <span>messages</span>
           </div>
-          <div className=" flex">
+          <div className=" flex gap-2  p-3 text-[#B0B0B0] ">
             <PaymentsIcon />
-            payments
+            <span>payments</span>
           </div>
         </div>
-        <div className=" flex">
+        <div className=" flex items-center justify-center gap-3">
           <BellIcon />
           <span>
             <Image
@@ -36,10 +35,9 @@ const Appbar = () => {
               priority
             />
           </span>
-          <DownArrowIcon />
+          <DownArrowIcon className=" h-4 w-4" />
         </div>
       </div>
-      {/* </div> */}
     </div>
   );
 };
