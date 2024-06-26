@@ -5,8 +5,6 @@ export default function DownArrowIcon({
 }) {
   return (
     <svg
-      //   width="20"
-      //   height="20"
       className={className}
       viewBox="0 0 20 20"
       fill="none"
@@ -15,9 +13,9 @@ export default function DownArrowIcon({
       <path
         d="M5 7.5L10 12.5L15 7.5"
         stroke="black"
-        stroke-width="1.2"
-        stroke-linecap="round"
-        stroke-linejoin="round"
+        strokeWidth="1.2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </svg>
   );
