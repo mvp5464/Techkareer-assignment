@@ -4,7 +4,7 @@ const JobInfoComp = ({ image, name }: { image: string; name: string }) => {
   return (
     <>
       <div className=" flex">
-        <div className=" border flex items-center gap-[.2rem] px-1 py-[0.1rem] rounded-md text-[0.6rem] ">
+        <div className=" border flex items-centers gap-[.2rem] px-1 pb-[0.05rem] pt-[0.15rem] rounded-md text-[0.59rem] ">
           <span className=" w-3">
             <Image
               src={image}

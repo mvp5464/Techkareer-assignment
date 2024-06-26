@@ -9,39 +9,39 @@ import ViewsIcon from "./icons/ViewsIcon";
 const SidebarSection = () => {
   return (
     <div className=" border-l-2 py-6">
-      <div className=" flex justify-center items-center gap-3 mx-5">
-        <button className=" flex items-center justify-center gap-2 font-[500] border border-[#DC4A2D] text-[#DC4A2D] bg-[#FEF4F2] rounded-lg  py-2 w-full ">
+      <div className=" flex justify-center items-center gap-[.7rem] mx-[1.08rem]">
+        <button className=" flex items-center justify-center gap-[.4rem] font-[500] border border-[#DC4A2D] text-[#DC4A2D] bg-[#FEF4F2] rounded-lg  py-2 w-full ">
           <DeleteIcon className="w-4 h-4" />
-          <span className="text-sm">Delete job</span>
+          <span className="text-xs py-[0.1rem]">Delete job</span>
         </button>
         <button className=" flex items-center justify-center gap-2 font-[500] border border-[#FED3CA] text-white bg-[#DC4A2D] rounded-lg py-2 w-full ">
           <EditIcon className="w-3 h-3" />
-          <span className="text-sm">Edit job</span>
+          <span className="text-xs py-[0.1rem]">Edit job</span>
         </button>
       </div>
-      <div>
-        <div className=" mx-7 my-5 pb-4 border-b">
+      <div className=" pt-[0.85rem]">
+        <div className=" px-[0.4rem] mx-7 mt-[1.12rem] pb-[1.13rem] border-b">
           <SidebarSectionComp
             icon={<ApplicantsIcon className="w-4 h-4" />}
             info={"Applicants"}
             number={"400"}
           />
         </div>
-        <div className=" mx-7 my-5 pb-4 border-b">
+        <div className=" px-[0.4rem] mx-7 mt-[1.1rem] pb-[1.13rem] border-b">
           <SidebarSectionComp
             icon={<MatchesIcon className="w-4 h-4" />}
             info={"Matches"}
             number={"100"}
           />
         </div>
-        <div className=" mx-7 my-5 pb-4 border-b">
+        <div className=" px-[0.4rem] mx-7 mt-[1.1rem] pb-[1.13rem] border-b">
           <SidebarSectionComp
             icon={<MessagesIcon className="w-4 h-4" borderColor="#4F4F4F" />}
             info={"Messages"}
             number={"147"}
           />
         </div>
-        <div className=" mx-7 my-5 pb-4 ">
+        <div className=" px-[0.4rem] mx-7 mt-[1.1rem] pb-[1.13rem] ">
           <SidebarSectionComp
             icon={<ViewsIcon className="w-4 h-4" />}
             info={"Views"}

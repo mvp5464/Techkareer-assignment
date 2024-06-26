@@ -36,8 +36,8 @@ body {
   border-bottom: 1px solid;
   border-image: linear-gradient(
       to right,
-      transparent 25%,
-      #dc4a2d 25%,
+      transparent 20%,
+      #dc4a2d 20%,
       #dc4a2d 75%,
       transparent 75%
     )

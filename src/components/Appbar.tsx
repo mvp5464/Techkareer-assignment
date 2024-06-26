@@ -9,16 +9,16 @@ const Appbar = () => {
   return (
     <div className="sticky z-50 top-0 bg-white border-b border-[#E7E7E7]">
       <div className=" flex justify-between items-center px-6 py-3 ">
-        <div className=" bg-[#E7E7E7] text-[#DC4A2D] px-5 font-[600] py-[0.7rem] ml-1">
+        <div className=" bg-[#E7E7E7] text-[#DC4A2D] px-[1.20rem] font-[600] py-[0.7rem] ml-[0.36rem]">
           Logo
         </div>
-        <div className=" flex gap-[2.2rem] ml-2 border rounded-full p-1 pr-2 font-[500] tracking-tight">
-          <div className=" flex items-center gap-[0.3rem] px-[0.7rem] my-[0.2rem] rounded-3xl bg-[#DC4A2D] text-white border border-[#FCB4A5]">
-            <JobsIcon className="w-5 h-5" /> <span>Jobs</span>
+        <div className=" flex gap-[2.3rem] ml-1 border rounded-full py-1 px-[0.35rem] pr-2 font-[500] tracking-tight">
+          <div className=" flex items-center gap-[0.35rem] pl-[0.6rem] pr-[0.62rem] mb-[0.16rem] mt-[0.14rem] rounded-3xl bg-[#DC4A2D] text-white border border-[#FCB4A5]">
+            <JobsIcon className="w-[1.2rem] h-[1.2rem]" /> <span>Jobs</span>
           </div>
           <div className=" flex items-center gap-[0.3rem] p-2 my-1  ml-1 text-[#B0B0B0]">
             <div className="relative">
-              <MessagesIcon className="w-5 h-5" />
+              <MessagesIcon className="w-[1.2rem] h-[1.2rem]" />
               <span className=" absolute top-0 right-0 bg-[#DC4A2D] text-white text-xs py-[0.15rem] px-[0.15rem] rounded-full leading-3">
                 {" "}
               </span>
@@ -27,14 +27,14 @@ const Appbar = () => {
             <span>Messages</span>
           </div>
           <div className=" flex gap-1 items-center p-[0.2rem] m-1 ml-3 text-[#B0B0B0] ">
-            <PaymentsIcon className="w-5 h-5" />
+            <PaymentsIcon className="w-[1.2rem] h-[1.2rem]" />
             <span>Payments</span>
           </div>
         </div>
-        <div className=" flex items-center justify-center gap-1">
-          <div className="relative mr-2">
+        <div className=" flex items-center justify-center gap-1 mr-[0.05rem] -mt-[0.1rem] ">
+          <div className="relative mr-[0.53rem]">
             <BellIcon />
-            <span className=" absolute top-0 right-1 bg-[#DC4A2D] text-white text-xs py-[0.15rem] px-[0.15rem] rounded-full leading-3">
+            <span className=" absolute top-0 right-[0.19rem] bg-[#DC4A2D] text-white text-xs py-[0.15rem] px-[0.15rem] rounded-full leading-3">
               {" "}
             </span>
           </div>

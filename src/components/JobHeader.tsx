@@ -6,7 +6,7 @@ const JobHeader = () => {
     <div className="border-b border-[#E7E7E7]">
       <div className="ml-[4.7rem] my-[1.55rem] mb-[1.37rem] ">
         <div className=" flex gap-2 justify-centers items-center">
-          <div className=" font-extrabold text-[1.62rem] text-[#3D3D3D] ">
+          <div className=" font-[900] text-[1.6rem] text-[#3D3D3D] ">
             Senior Product Designer
           </div>
           <span className=" text-[#D1D1D1] text-sm">&#x1F784;</span>
