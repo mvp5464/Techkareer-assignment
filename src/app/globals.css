@@ -31,3 +31,15 @@ body {
     text-wrap: balance;
   }
 }
+
+.half-bottom-border {
+  border-bottom: 1px solid;
+  border-image: linear-gradient(
+      to right,
+      transparent 25%,
+      #dc4a2d 25%,
+      #dc4a2d 75%,
+      transparent 75%
+    )
+    100% 1;
+}

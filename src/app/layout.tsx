@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
+import Appbar from "@/components/Appbar";
 
 const sans = DM_Sans({ subsets: ["latin"] });
 
@@ -17,7 +18,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={sans.className}>
-        <div className=" bg-white">{children}</div>
+        <div className=" bg-white">
+          <Appbar />
+          {children}
+        </div>
       </body>
     </html>
   );
