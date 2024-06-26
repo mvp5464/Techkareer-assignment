@@ -3,8 +3,8 @@ import JobCompanyComp from "./JobCompanyComp";
 const JobCompany = () => {
   return (
     <div className="border-b border-[#E7E7E7]">
-      <div className="ml-20 my-5 ">
-        <div className=" flex items-center gap-2 text-[#4F4F4F] mb-4">
+      <div className="ml-[4.7rem] my-[2rem]">
+        <div className=" flex items-center gap-2 text-[#4F4F4F] mb-[1.22rem] ">
           <Image
             src="/appLogo.png"
             alt="App Logo"
@@ -13,9 +13,9 @@ const JobCompany = () => {
             height={0}
             priority
           />
-          <span className=" font-bold">Atlassian</span>
+          <span className=" font-">Atlassian</span>
         </div>
-        <div className="  grid grid-cols-[1fr,2fr] w-full gap-2">
+        <div className="grid grid-cols-[20fr,45fr] gap-[1.15rem] -mb-2">
           <div>
             <JobCompanyComp title={"Company size"} info={"1k-2k Employees"} />
           </div>
