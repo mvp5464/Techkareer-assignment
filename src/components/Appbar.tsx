@@ -9,13 +9,19 @@ const Appbar = () => {
   return (
     <div className=" border-b border-[#E7E7E7]">
       <div className=" flex justify-between items-center p-5">
-        <div className=" bg-[#E7E7E7] text-[#DC4A2D] px-6 py-4">logo</div>
+        <div className=" bg-[#E7E7E7] text-[#DC4A2D] px-6 py-4">Logo</div>
         <div className=" flex gap-2 border rounded-full p-1">
           <div className=" flex gap-2 rounded-full bg-[#DC4A2D] text-white p-3 border border-[#FCB4A5]">
             <JobsIcon /> <span>jobs</span>
           </div>
-          <div className=" flex gap-2  p-3 text-[#B0B0B0]">
-            <MessagesIcon />
+          <div className=" flex gap-2 p-3 text-[#B0B0B0]">
+            <div className="  relative">
+              <MessagesIcon />
+              <span className=" absolute top-0 right-0 bg-[#DC4A2D] text-white text-xs py-[0.15rem] px-[0.15rem] rounded-full leading-3">
+                {" "}
+              </span>
+            </div>
+
             <span>messages</span>
           </div>
           <div className=" flex gap-2  p-3 text-[#B0B0B0] ">
@@ -24,7 +30,12 @@ const Appbar = () => {
           </div>
         </div>
         <div className=" flex items-center justify-center gap-3">
-          <BellIcon />
+          <div className="relative">
+            <BellIcon />
+            <span className=" absolute top-0 right-1 bg-[#DC4A2D] text-white text-xs py-[0.15rem] px-[0.15rem] rounded-full leading-3">
+              {" "}
+            </span>
+          </div>
           <span>
             <Image
               src="/appLogo.png"

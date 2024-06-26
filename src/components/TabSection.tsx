@@ -1,7 +1,7 @@
 const TabSection = () => {
   return (
-    <div className="border-b-2 border-[#E7E7E7]">
-      <div className="max-w-[90%] mx-auto flex gap-14 pt-3 pb-[0.05rem] font-semibold text-lg ">
+    <div className="border-b-2 border-[#E7E7E7] bg-blue-400k">
+      <div className="ml-20 flex gap-14 pt-3 pb-[0.05rem] font-semibold text-lg bg-fuchsia-400k">
         <div className=" text-[#DC4A2D] half-bottom-border pb-2 ">
           Job preview
         </div>
