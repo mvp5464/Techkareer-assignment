@@ -5,7 +5,7 @@ const JobInfo = () => {
     <div className="border-b border-[#E7E7E7]">
       <div className="ml-[4.7rem] my-[1.5rem] ">
         <div className=" grid grid-cols-[2fr,2fr,2fr,2fr,3fr] gap-8">
-          <div className=" space-y-1">
+          <div className=" flex flex-col gap-[0.3rem]">
             <div className=" text-[#6E6D6D] font-semibold text-[0.64rem] ">
               Skills Required
             </div>
